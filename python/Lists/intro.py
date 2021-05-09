@@ -35,8 +35,12 @@ fruits[3] -> Apple
 
 """
 
-fruits = ["Apple", "Banana", "Papaya", "melon", "pear", "orange"]
-print("length of the list", len(fruits))
-print("item of the list", fruits[1], fruits[2], fruits[0])
+#fruits = ["Apple", "Banana", "Papaya", "melon", "pear", "orange"]
+#print("length of the list", len(fruits))
+#print("item of the list", fruits[1], fruits[2], fruits[0])
 
-print(fruits[0: len(fruits):2])
+#print(fruits[0: len(fruits):2])
+
+names = ("Rahul", "Shyam", "Vibhor", "Akash")
+for i in range(0, len(names)):
+    print("hello!", names[(i)])
