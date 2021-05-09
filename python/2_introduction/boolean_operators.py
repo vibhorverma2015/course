@@ -34,6 +34,19 @@ if weather is sunny and temp is 20
 AND : if at its both side the conditions are ture then only the answer will be true
 x and y: the answer will be true if both the values i.e. x and y is true
 
+OR:in or if there is the option of or between true or false it will choose true .
+only the situation of false or false then only false will be chosen otherwise always true will be adopted.
+
+true or false = true
+true or true = true
+false or true = true
+
+=====================
+
+NOT: not is the situation where the opposite of truue of false will be chosen i.e.
+not(True) = false
+not(False) = true
+
 ======================================
 
 
@@ -41,5 +54,3 @@ if and else statement
 
 
 """
-
-print("hey ! please entre an intger")
