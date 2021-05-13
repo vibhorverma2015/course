@@ -13,7 +13,3 @@ else:
         print("FUZZ")
     if (user_input % 3 == 0):
         print("FIZZ")
-
-   
-    
-

@@ -31,5 +31,5 @@ print(state_capital_dict)
 value = 1, 2, 1, 1, 1, 2, 3, 4, 5, 5
 
 list_dict = {1, 2, 1, 1, 1, 2, 3, 4, 5, 5}
-for value in list_dict.value():
+for value in list_dict.value:
     print("for value", value, "frequwncy is", list_dict[value])

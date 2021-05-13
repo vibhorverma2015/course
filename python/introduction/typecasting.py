@@ -28,4 +28,3 @@ print("before", type(a))
 
 a = float(5.7)
 print("after", type(a))
-
