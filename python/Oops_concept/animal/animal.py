@@ -4,10 +4,8 @@ class Animal:
         self.no_of_legs = no_of_legs
         self.has_tails = has_tails
 
+    def eat(self):
+        print(f"{self.name} is eating")
 
-def eat(self):
-    print(f"{self.name} is eating")
-
-
-def walk(self):
-    print(f"{self.name} is walking")
+    def walk(self):
+        print(f"{self.name} is walking")
