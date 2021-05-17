@@ -4,4 +4,3 @@ fruits_dict = {
     "Grapes": "50",
     "Orange": "100"
 }
-print(fruits_dict)
