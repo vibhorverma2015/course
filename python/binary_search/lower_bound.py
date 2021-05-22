@@ -1,5 +1,5 @@
 A = [1, 2, 2, 2, 4, 5, 6, 6, 7]
-target = 2
+target = 3
 
 
 def getlowerbound(A, target):

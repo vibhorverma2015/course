@@ -1,5 +1,5 @@
 """
-find he number of times the target occured in te array with 
+find he number of times the target occured in the array with 
 lower bound and upper bound 
 """
 
@@ -19,7 +19,6 @@ def number_of_targets(a, target):
         if a[i] == target:
             cnt += 1
             return i
-
         else:
             if a[i] != target:
                 return i
@@ -27,4 +26,7 @@ def number_of_targets(a, target):
 
 
 if __name__ == "__main__":
+    a = [1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6, 6, 6, 8, 8, 8, 9, 9]
+    target = 6
+
     print(number_of_targets(a, target))

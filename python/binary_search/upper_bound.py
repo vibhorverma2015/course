@@ -1,5 +1,5 @@
 a = [1, 2, 2, 3, 3, 3, 5, 7, 8, 8, 8, 10]
-target = 9
+target = 2
 
 
 def get_upperbound(a, target):
