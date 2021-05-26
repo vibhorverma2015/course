@@ -1,0 +1,101 @@
+body{
+    background: color #f4f4f4;;
+    color:#555;
+    font-family: serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: coral;
+    color: white;
+}
+#navbar{
+    background-color: grey;
+        
+}
+#navbar ul{
+    list-style: none;
+    padding:10px
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    font-size: 14px;
+    padding-right: 15px;
+    color:white;
+    text-decoration: none;
+}
+#showcase{
+    background-image: url('../images/caseimage.jpg');
+    background-position: center;
+    border: 1px solid black;
+    min-height:200px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    color:black;
+    text-align: center;
+}
+#showcase h1{
+    font-size: 23px;
+    line-height: 1.6em;
+    font-family: cursive;
+    font-style:italic;
+}
+#updates{
+    float:left;
+    width: 50%;
+    border:1px dotted black;
+    border-radius: 5px;
+    padding:2px 5px;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+#updates ul{
+    font-size: 22px;
+    color:black;
+    padding:0 20px;
+}
+#updates a{
+    font-size: small;
+}
+#sidebar{
+    float: right;
+    width:30%;
+    background-color: black;
+    color:white;
+    box-sizing: border-box;
+    padding:0 30px;
+    margin-right: 20px;
+}
+#sidebar h1{
+    font-size: 25px;
+    line-height: 1.6em;
+
+}
+#main-footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30%;
+}
+@media(max-width: 600px){
+    #update{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
